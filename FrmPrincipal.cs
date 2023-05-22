@@ -21,5 +21,11 @@ namespace Sistema_PDV
         {
             this.Close();
         }
+
+        private void MenuFucionarios_Click(object sender, EventArgs e)
+        {
+            Cadastro.FrmCadastro frmCadastro = new Cadastro.FrmCadastro();
+            frmCadastro.ShowDialog();
+        }
     }
 }
